@@ -34,7 +34,7 @@ class Window(QWidget) :
         
     
     def updateBrowser(self):
-        openai.api_key ="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"
+        openai.api_key ="YOUR API KEY"
               
         text = str(self.lineEdit.text ())
         completion = openai.ChatCompletion.create(
